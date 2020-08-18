@@ -10,7 +10,7 @@ Decentralized Identifiers (DIDs, see **[1]**) are designed to be compatible with
 
 The names string that shall identify this DID method is: tr
 
-A DID using this method shall begin with `did:tr:`  for exampple `did:tr:aab7f84f-d700-4ce1-b469-55ed58781775`
+A DID using this method shall begin with `did:tr:`  for example `did:tr:aab7f84f-d700-4ce1-b469-55ed58781775`
 
 Note that the dashes in the did name are entirely optional and are an artifact of a typical guid generation process. But any use of the did must follow the pattern of the 'did:tr' generation program and are not to be inserted or deleted by any process. Also note that substrings of tr, such as `did:tr:one:` should be planned for in future releases of the method.
 
