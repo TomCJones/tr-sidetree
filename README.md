@@ -1,6 +1,6 @@
 # did:tr method in the github.com/tomcjones/tr-sidetree respository
 
-2020-05-05
+2020-05-08
 
 ## Tom Jones  <thomasclinganjones@gmail.com>
 
@@ -12,5 +12,5 @@ The names string that shall identify this DID method is: tr
 
 A DID using this method shall begin with `did:tr:`  for exampple `did:tr:`
 
-Note that the dashes in the did name are entirely optional and are an artifact of the typical guid generation process. But the must follow the pattern of the 'did:tr' generation program and are not to be inserted or deleted by any process. Also note that substrings of tr, such as 'tr:one:' should be planned for in future releases of the protocol.
+Note that the dashes in the did name are entirely optional and are an artifact of the typical guid generation process. But the must follow the pattern of the 'did:tr' generation program and are not to be inserted or deleted by any process. Also note that substrings of tr, such as `did:tr:one:` should be planned for in future releases of the method.
 
