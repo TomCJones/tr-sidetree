@@ -8,7 +8,9 @@ Decentralized Identifiers (DIDs, see **[1]**) are designed to be compatible with
 
 ## DID Method Name
 
-The names string that shall identify this DID method is: tr
+The name string that shall identify this DID method is: tr
+
+The code repository is at https://github.com/TomCJones/tr
 
 A DID using this method shall begin with `did:tr:`  for example `did:tr:aab7f84f-d700-4ce1-b469-55ed58781775`
 
@@ -22,19 +24,19 @@ A major objective of this method is to let the user select their own identifier.
 
 	{
 		"@context": "https://w3id.org/did/v1",
-		"id": "did:tr:2F2B37C890824242Cb9B0FE5614fA2221B79901E",
+		"id": "did:tr:aab7f84f-d700-4ce1-b469-55ed58781775",
 		"publicKey": [{
-			"id": "tr:2F2B37C890824242Cb9B0FE5614fA2221B79901E#key-1",
+			"id": "did:tr:aab7f84f-d700-4ce1-b469-55ed58781775#key-1",
 			"type": ["Secp256k1SignatureVerificationKey2018", "ERC725ManagementKey"],
 			"publicKeyHex": "1a0cb8f32c94921649383b14523cb6df04858cfbd4f77711371321cd8ebd87d72efe02b69ca4b02b35a848404101ad17efbf962441733135cb7d833313c3d37b"
 		}, {
-			"id": "tr:2F2B37C890824242Cb9B0FE5614fA2221B79901E#key-2",
+			"id": "did:tr:aab7f84f-d700-4ce1-b469-55ed58781775E#key-2",
 			"type": ["Secp256k1SignatureVerificationKey2018", "ERC725ActionKey"],
 			"publicKeyHex": "00e17b0f13af42bd7c992ef991ebd75f8345b5edb8e937eb0c9c3dea80af23448419faa1d7562054e31bf56ab1af485944b3a327085c4502e38d723129fd5cf666"
 		}],
 		"authentication": {
 			"type": "Secp256k1SignatureAuthentication2018",
-			"publicKey": "did:erc725:ropsten:2F2B37C890824242Cb9B0FE5614fA2221B79901E#key-2"
+			"publicKey": "did:tr:aab7f84f-d700-4ce1-b469-55ed58781775#key-2"
 		},
 		"service": []
 	}
