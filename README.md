@@ -38,3 +38,19 @@ A major objective of this method is to let the user select their own identifier.
 		},
 		"service": []
 	}
+
+## CRUD Operation Definitions
+
+### Create (Register)
+
+In order to create a `tr` DID, 
+
+### Read (Resolve)
+
+To construct a valid DID document from an `tr` DID, the following steps are performed:
+
+###Update (Change DID or even a key)
+
+###Deactivate (Deletion of entries in a blockchain are not supported by design.)
+
+
