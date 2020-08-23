@@ -1,4 +1,4 @@
-# did:tr method in the github.com/tomcjones/tr-sidetree repository
+# did:tr method in the github.com/tomcjones/tr repository
 
 2020-05-08
 
